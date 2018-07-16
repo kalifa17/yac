@@ -24,10 +24,10 @@ export default class InitForm extends Component {
            <input
               type="text"
               onChange={this.usernameChangeHandler}
-              placeholder="Enter your Username"
+              placeholder="Username"
               required />
             <button className="submit" type="submit" value="Submit">
-              Let's Chat
+              Chat
             </button>
          </form>
       </div>

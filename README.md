@@ -40,7 +40,7 @@ Platform:
 
 BTW we like react, redux, Backbone, python 
 
-# To apply for a job just... 
+# run yac server
 
-* fork this repo
-* create a PR with the URL to test try it.
+redis-server
+python3 manage.py runserver 0:8000

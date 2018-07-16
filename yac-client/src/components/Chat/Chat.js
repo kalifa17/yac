@@ -98,7 +98,7 @@ export default class Chat extends Component {
               type='text'
               onChange={this.messageChangeHandler}
               value={this.state.message || ''}
-              placeholder='Type a Message'
+              placeholder='Message'
               required />
             <button className='submit' type='submit' value='Submit'>
               Send
